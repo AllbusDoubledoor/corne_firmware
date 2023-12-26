@@ -22,6 +22,11 @@
             bindings = <&kp BACKSPACE>;
             key-positions = <10 11>;
         };
+
+        rightbracket {
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <9 10>;
+        };
     };
 
     keymap {
