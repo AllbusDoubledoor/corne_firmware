@@ -14,13 +14,13 @@
 
         esc_when_tab_q {
             bindings = <&kp ESC>;
-            key-positions = <12 13>;
+            key-positions = <1 0>;
             layers = <0 2 3>;
         };
 
         backspace {
             bindings = <&kp BACKSPACE>;
-            key-positions = <22 23>;
+            key-positions = <10 11>;
         };
 
         rightbracket {
