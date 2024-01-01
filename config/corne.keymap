@@ -7,8 +7,6 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
-#include <behaviors.dtsi>
-#include <dt-bindings/zmk/keys.h>
 
 / {
     combos {
@@ -16,13 +14,13 @@
 
         esc_when_tab_q {
             bindings = <&kp ESC>;
-            key-positions = <1 0>;
+            key-positions = <12 13>;
             layers = <0 2 3>;
         };
 
         backspace {
             bindings = <&kp BACKSPACE>;
-            key-positions = <10 11>;
+            key-positions = <22 23>;
         };
 
         rightbracket {
