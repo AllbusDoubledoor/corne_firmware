@@ -9,26 +9,6 @@
 #include <dt-bindings/zmk/bt.h>
 
 / {
-    combos {
-        compatible = "zmk,combos";
-
-        esc_when_tab_q {
-            bindings = <&kp ESC>;
-            key-positions = <1 0>;
-            layers = <0 2 3>;
-        };
-
-        backspace {
-            bindings = <&kp BACKSPACE>;
-            key-positions = <10 11>;
-        };
-
-        rightbracket {
-            bindings = <&kp RIGHT_BRACKET>;
-            key-positions = <9 10>;
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
